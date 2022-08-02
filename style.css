@@ -1,0 +1,58 @@
+* {
+    font-family: montserrat;
+}
+
+table {
+    background:  white;
+    color: black;
+    border-collapse: collapse;
+    border: 2px solid black;
+text-align: left;
+font-size: 20px;
+
+
+ 
+}
+
+td, th {
+    border: 3px solid black;
+    padding: 10px;
+}
+
+
+
+table th {
+    background:white;
+    color: black;
+font-size: 20px;
+    text-align: left;
+    width: 400px;
+  }
+
+  table td {
+    background:white;
+    color: black;
+font-size: 20px;
+    text-align: left;
+    width: 200px;
+    height: 5px;
+
+  }
+
+  
+  table:nth-of-type(1) .lastname {
+    background: orange;
+    color: white;
+  }
+
+  table:nth-of-type(1) .lastname2 {
+    background: blue;
+    color: white;
+  }
+  
+  table:nth-of-type(1) .lastname3 {
+    background: #16c03b;
+    color: white;
+  }
+  
+  
